@@ -1,0 +1,57 @@
+
+time taken for encrypting image:  4.395950999999999s
+Noise budget in fresh encryption: 75 bits
+
+[INFO]: 12:12:08 AM {server_net.predictor_net} 
+                -- First convolution
+
+time taken for first convolution:  196.17232s
+Noise budget after first convolution: 71 bits
+
+[INFO]: 12:15:25 AM {server_net.predictor_net} 
+                -- activation
+
+time taken for first activation function:  58.10216199999999s
+ Noise budget after first activation: 75 bits
+
+[INFO]: 12:16:50 AM {server_net.predictor_net} 
+                -- meanpooling
+
+time taken for first meanpool:  1.8363989999999717s
+Noise budget after first meanpool: 74 bits
+
+[INFO]: 12:16:52 AM {server_net.predictor_net} 
+                -- Second convolution
+
+time taken for second convolution:  440.2059s
+Noise budget after second convolution: 75 bits
+
+[INFO]: 12:24:26 AM {server_net.predictor_net} 
+                -- meanpooling
+
+time taken for second meanpooling:  0.8990589999999656s
+Noise budget after second meanpool: 74 bits
+
+ 12:24:27 AM {server_net.predictor_net} 
+                -- Fully connected layer 1
+
+time taken for first fully connected layer:  110.34512000000007s
+Noise budget after first fcl: 75 bits
+
+[INFO]: 12:26:19 AM {server_net.predictor_net} 
+                -- activation
+
+time taken for activation 2:  1.856663000000026s
+Noise budget after first fcl act: 75 bits
+
+[INFO]: 12:26:21 AM {server_net.predictor_net} 
+                -- Fully connected layer 2
+
+time taken for second fcl:  2.2641439999999875s
+Noise budget last step: 70 bits
+[ 4603.53179977  5726.57855614 43675.42304893  6973.89345555
+ -5243.66744674   219.01440311 -6045.84527661 -3538.67923132
+  4719.15523642  1619.99722442]
+Prediction : 2
+time taken for decrypting image:  0.01594799999998031s
+total time taken for the network: 859.2474129999999s
